@@ -1,8 +1,7 @@
 FROM python:3-alpine
 
 LABEL maintainer="Jee jee@jeer.fr" \
-      description="MPD_sima is an non interactive MPD autoqueue client" \
-      original_url_project="https://kaliko.me/mpd-sima/"
+      description="MPD_sima is an non interactive MPD autoqueue client https://kaliko.me/mpd-sima/"
 
 RUN pip3 install --upgrade MPD_sima && \
     mkdir -p /config
