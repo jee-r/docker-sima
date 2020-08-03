@@ -1,0 +1,13 @@
+kind: pipeline
+name: default
+
+steps:
+- name: sima
+  image: plugins/docker:latest
+  settings:
+    repo: j33r/sima
+    tags: latest
+    dockerfile: Dockerfile
+    username: j33r
+    password:
+      from_secret: DOCKER_HUB_TOKKEN
