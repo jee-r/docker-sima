@@ -14,4 +14,4 @@ COPY /config/sima.conf /config/sima.conf
 
 ENV XDG_DATA_HOME="/config/"
 
-ENTRYPOINT ["mpd-sima", "--config /config/sima.conf", "--var-dir='/config/'"]
+ENTRYPOINT ["mpd-sima", "--config='/config/sima.conf'", "--var-dir='/config/'"]
