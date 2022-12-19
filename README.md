@@ -1,16 +1,10 @@
 # Docker-sima
-[![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/j33r/sima?style=flat-square)](https://microbadger.com/images/j33r/sima)
+![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/j33r/sima?style=flat-square)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/jee-r/docker-sima/deploy.yaml?branch=main&style=flat-square)
 [![DockerHub](https://img.shields.io/badge/Dockerhub-j33r/sima-%232496ED?logo=docker&style=flat-square)](https://hub.docker.com/r/j33r/sima)
 [![ghcr.io](https://img.shields.io/badge/ghrc%2Eio-jee%2D-r/sima-%232496ED?logo=github&style=flat-square)](https://ghcr.io/jee-r/sima)
 
 A docker image for [Sima](https://kaliko.me/mpd-sima/)
-
-# Supported tags
-
-| Tags | Size | Platformss | Build |
-|-|-|-|-|
-| `latest`, `stable` | ![](https://img.shields.io/docker/image-size/j33r/sima/latest?style=flat-square) | `amd64` | ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/jee-r/docker-sima/Deploy/master?style=flat-square)
-| `dev` | ![](https://img.shields.io/docker/image-size/j33r/sima/dev?style=flat-square) | `amd64` | ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/jee-r/docker-sima/Deploy/dev?style=flat-square) | 
 
 # What is Sima ?
 
